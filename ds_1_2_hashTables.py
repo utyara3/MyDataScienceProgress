@@ -219,7 +219,7 @@ class HashTable:
         Returns:
             True if key exists, False otherwise.
         """
-        return self.get(key) is not None
+        return key in [_key for bucket in self.__table for _key, _ in bucket]
 
     def __str__(self) -> str:
         """String representation of hash table.
