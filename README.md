@@ -217,7 +217,10 @@
 ---
 -->
 
+<!--
 ## 📈 Progress Overview
 
 **Общий прогресс: 2 / 166 тем завершено!**
 ![Overall Progress](https://progress-bar.dev/1/?title=Progress&width=400)
+-->
+
