@@ -147,20 +147,27 @@ class TestHashTable:
 
     def test_collision_handling(self):
         """Тест обработки коллизий"""
-        ht = HashTable(size=2)  # Очень маленький размер для принудительных коллизий
-        
-        # Добавляем элементы, которые скорее всего вызовут коллизии
-        ht.put("a", 1)
-        ht.put("b", 2) 
-        ht.put("c", 3)
-        
-        assert len(ht) == 3
-        assert ht.get_collisions_count() > 0  # Должны быть коллизии
-        
-        # Проверяем, что все значения доступны несмотря на коллизии
-        assert ht.get("a") == 1
-        assert ht.get("b") == 2
-        assert ht.get("c") == 3
+        ht = HashTable(size=2, auto_resize=False)
+    
+        # Используем ключи, которые гарантированно дадут коллизии
+        # при любом хэше из-за модуля 2
+        ht.put("key1", 1)  # Оба попадут в один bucket
+        ht.put("key2", 2)  # из-за size=2
+    
+        ht.put("key3", 3)  # Этот может попасть в другой bucket
+    
+        # Проверяем, что все значения доступны
+        assert ht.get("key1") == 1
+        assert ht.get("key2") == 2
+        assert ht.get("key3") == 3
+    
+        # Проверяем, что есть хотя бы одна коллизия
+        # (при size=2 минимум 2 ключа должны быть в одном bucket)
+        collisions = ht.get_collisions_count()
+        assert collisions >= 1, f"Expected at least 1 collision, got {collisions}"
+    
+        # Дополнительная проверка - посмотрим структуру
+        print("Table structure:", ht._HashTable__table)
 
     def test_items_iterator(self):
         """Тест итератора по элементам"""

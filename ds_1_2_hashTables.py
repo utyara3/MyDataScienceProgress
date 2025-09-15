@@ -11,29 +11,35 @@ class HashTable:
         load_factor: Ratio of items to capacity (0.0 to 1.0)
     """
     
-    def __init__(self, size: int = 2**4) -> None:
+    def __init__(self, size: int = 2**4, auto_resize: bool = True) -> None:
         """Initialize a new hash table.
         
         Args:
             size: Initial capacity of the hash table. Must be positive.
         """
         self.size = size
+        self.auto_resize = auto_resize
         self.__table: list[list[tuple[Any, Any]]] = [[] for _ in range(size)]
 
-    def _hash(self, key: Any) -> int:
-        """Compute CRC32-like hash value for the given key.
+    def _hash(self, key: Any) -> str:
+        """Custom fixed-lentgh hash implementation
         
         Args:
             key: Key to hash. Will be converted to string.
             
         Returns:
-            Integer hash value.
+            String hash value.
         """
+        key_str = str(key)
         hash_value = 0
-        for char in str(key):
-            hash_value ^= ord(char)
-            hash_value = (hash_value << 1) | (hash_value >> 31)
-        return hash_value
+        prime1, prime2 = 31, 37
+    
+        for _, char in enumerate(key_str):
+            hash_value = (hash_value * prime1 + ord(char) * prime2) % (2**32)
+            prime1, prime2 = prime2, prime1
+
+        hex_hash = hex(hash_value)[2:]
+        return hex_hash.zfill(8)
 
     def _hash_index(self, key: Any) -> int:
         """Compute bucket index for the given key.
@@ -44,8 +50,9 @@ class HashTable:
         Returns:
             Index in the table array.
         """
-        hash_value: int = self._hash(key)
-        return abs(hash_value) % self.size
+        hash_value: str = self._hash(key)
+        
+        return int(hash_value, 16) % self.size
 
     def get(self, key: Any) -> Optional[Any]:
         """Retrieve value associated with key.
@@ -77,7 +84,7 @@ class HashTable:
         Raises:
             TypeError: If key is not hashable.
         """
-        if self.need_resize:
+        if self.need_resize and self.auto_resize:
             self._resize(self.size * 2)
 
         hash_index: int = self._hash_index(key)
