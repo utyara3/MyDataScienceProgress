@@ -28,7 +28,7 @@
 ### 🧮 1. Fundamentals
 * ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Matrices & Linear Algebra_
 * ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Hash functions, Binary Tree, O(n)_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Relation Algebra, DB basics_
+* ![Not Started](https://img.shields.io/badge/Сейчас-In_Progress-yellow) _Relation Algebra, DB basics_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Inner, Outer, Cross, Theta Join_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Cap Theorem_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Tabular data_
