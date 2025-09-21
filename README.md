@@ -28,11 +28,11 @@
 ### 🧮 1. Fundamentals
 * ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Matrices & Linear Algebra_
 * ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Hash functions, Binary Tree, O(n)_
-* ![Not Started](https://img.shields.io/badge/Изучено-Done-brightgreen) _Relation Algebra, DB basics_
-* ![Not Started](https://img.shields.io/badge/Изучено-Done-brightgreen) _Inner, Outer, Cross, Theta Join_
-* ![Not Started](https://img.shields.io/badge/Сейчас-In_progress-yellow) _Cap Theorem_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Tabular data_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Enthropy_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Relation Algebra, DB basics_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Inner, Outer, Cross, Theta Join_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Cap Theorem_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Tabular data_
+* ![In progress](https://img.shields.io/badge/Сейчас-In_progress-yellow) _Enthropy_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) *Data Frame & Series*
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Sharding_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _OLAP_
