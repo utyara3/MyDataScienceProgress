@@ -1,5 +1,6 @@
 import math
 import collections
+from pprint import pprint
 
 
 def calculate_entropy(data: list[str]) -> float:
@@ -28,6 +29,6 @@ if __name__ == "__main__":
     entropy2 = round(calculate_entropy(basket2), 3)
     entropy3 = round(calculate_entropy(basket3), 3)
 
-    print(f"Basket1: {basket1}, entropy = {entropy1}")
-    print(f"Basket2: {basket2}, entropy = {entropy2}")
-    print(f"Basket3: {basket3}, entropy = {entropy3}")
+    pprint(f"Basket1: {basket1}, entropy = {entropy1}")
+    pprint(f"Basket2: {basket2}, entropy = {entropy2}")
+    pprint(f"Basket3: {basket3}, entropy = {entropy3}")
