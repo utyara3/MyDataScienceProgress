@@ -1,6 +1,5 @@
 import math
 import collections
-from typing import Counter
 
 
 def calculate_entropy(data: list[str]) -> float:
