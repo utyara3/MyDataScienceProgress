@@ -32,3 +32,4 @@ if __name__ == "__main__":
     pprint(f"Basket1: {basket1}, entropy = {entropy1}")
     pprint(f"Basket2: {basket2}, entropy = {entropy2}")
     pprint(f"Basket3: {basket3}, entropy = {entropy3}")
+    

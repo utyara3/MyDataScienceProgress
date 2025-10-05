@@ -32,13 +32,13 @@
 * ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Inner, Outer, Cross, Theta Join_
 * ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Cap Theorem_
 * ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Tabular data_
-* ![In progress](https://img.shields.io/badge/Сейчас-In_progress-yellow) _Enthropy_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) *Data Frame & Series*
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Sharding_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _OLAP_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Multidismentional Data Model_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _ETL_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Reporting vs BI vs Analytics_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Enthropy_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) *Data Frame & Series*
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Sharding_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _OLAP_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _Multidismentional Data Model_
+* ![Done](https://img.shields.io/badge/Изучено-Done-brightgreen) _ETL_
+* ![In progress](https://img.shields.io/badge/Сейчас-In_progress-yellow) _Reporting vs BI vs Analytics_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _JSON & XML_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _NoSQL_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Regex_
@@ -74,55 +74,55 @@
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Pearson Coeff_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Causation_
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Least$^2$ Fit_
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Euclidean Distance
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Euclidean Distance_
 
 ### 🐍 3. Programming
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Python Basics
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Working in Excel
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) R setup, R studio
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) R basics
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Expressions
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Variables (IBM SPSS Rapid Miner)
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Vectors
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Matrices
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Arrays
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Factors
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Lists
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Data Frames
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) CSV
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Reading Raw Data
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Subsetting Data
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Factor Analysis
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Python Basics_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Working in Excel_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _R setup, R studio_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _R basics_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Expressions_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Variables (IBM SPSS Rapid Miner)_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Vectors_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Matrices_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Arrays_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Factors_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Lists_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Data Frames_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _CSV_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Reading Raw Data_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Subsetting Data_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Factor Analysis_
 
 ### 🤖 4. Machine Learning
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) What is ML?
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Numerical Var
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Categorial Var
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Supervised Learning
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Unsupervised Learning
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Concepts, Inputs & Attributes
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Training & Test Data
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Classifier
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Predictions
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Lift
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Overfitting
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Bias & Variance
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Trees & Classifications
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Classification Rate
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Decision Trees
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Boosting
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Naive Bayes Classifiers
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) K-nearest Neighbour
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Logistic Regression
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Ranking
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Linear Regression
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Perceptron
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Hierarchical Clustering
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) K-means Clustering
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Neural Networks
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Sentiment Analysis
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Collaborative Filtering
-* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Tagging
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _What is ML?_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Numerical Var_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Categorial Var_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Supervised Learning_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Unsupervised Learning_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Concepts, Inputs & Attributes_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Training & Test Data_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Classifier_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Predictions_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Lift_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Overfitting_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Bias & Variance_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Trees & Classifications_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Classification Rate_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Decision Trees_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Boosting_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Naive Bayes Classifiers_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _K-nearest Neighbour_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Logistic Regression_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Ranking_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Linear Regression_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Perceptron_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Hierarchical Clustering_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _K-means Clustering_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Neural Networks_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Sentiment Analysis_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Collaborative Filtering_
+* ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) _Tagging_
 
 ### 📝 5. Text Mining / NLP
 * ![Not Started](https://img.shields.io/badge/В_планах-Not_Started-red) Vocabulary mapping
